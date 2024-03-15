@@ -38,6 +38,7 @@ const CreatePost = () => {
             type="text"
             name="userId"
             placeholder="userId"
+            required
             onChange={(e) => handleChange(e)}
             className="bg-fuchsia-200 w-[300px] my-4 p-4 rounded-md text-black placeholder:text-gray-600 text-xl outline-none focus:border-2 focus:border-fuchsia-500 focus:transition focus:ease-in-out focus:duration-150"
           />
@@ -47,6 +48,7 @@ const CreatePost = () => {
             type="text"
             name="id"
             placeholder="id"
+            required
             onChange={(e) => handleChange(e)}
             className="bg-fuchsia-200 w-[300px] my-4 p-4 rounded-md text-black placeholder:text-gray-600 text-xl outline-none focus:border-2 focus:border-fuchsia-500 focus:transition focus:ease-in-out focus:duration-150"
           />
@@ -56,6 +58,7 @@ const CreatePost = () => {
             type="text"
             name="title"
             placeholder="title"
+            required
             onChange={(e) => handleChange(e)}
             className="bg-fuchsia-200 w-[300px] my-4 p-4 rounded-md text-black placeholder:text-gray-600 text-xl outline-none focus:border-2 focus:border-fuchsia-500 focus:transition focus:ease-in-out focus:duration-150"
           />
@@ -65,6 +68,7 @@ const CreatePost = () => {
             type="text"
             name="body"
             placeholder="body"
+            required
             onChange={(e) => handleChange(e)}
             className="bg-fuchsia-200 w-[300px] my-4 p-4 rounded-md text-black placeholder:text-gray-600 text-xl outline-none focus:border-2 focus:border-fuchsia-500 focus:transition focus:ease-in-out focus:duration-150"
           />
